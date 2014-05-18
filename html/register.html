@@ -1,0 +1,16 @@
+<form  autocomplete="off" id='loginform' method="post" action="index.php?action=doregister"  onsubmit="return validateFFB(this, false);">
+    <input type="hidden" name="labels" value="First name;Surname;Email;Password"/>
+    <label for="fbform[fname]">First name:</label>
+    <input type="text" name="fbform[fname]" id="fbform[fname]" class="required"/>
+    <label for="fbform[sname]">Surname:</label>
+    <input type="text" name="fbform[sname]" id="fbform[sname]" class="required"/>
+    <label for="fbform[email]">Email:</label>
+    <input type="text" name="fbform[email]" id="fbform[email]" class="required email"/>
+    <br/>
+    <label for="fbform[password]">Password:</label>
+    <input type="password" name="fbform[password]" id="fbform[password]" class="required password"/>
+    <br/>
+    <label for="fbform[password_c]">Confirm Password:</label>
+    <input type="password" name="fbform[password_c]" id="fbform[password_c]"/>
+    <input type="submit" value="OK"/>
+</form>
